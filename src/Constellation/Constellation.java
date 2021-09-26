@@ -7,7 +7,7 @@ public class Constellation {
     static long day;
     static String birthday = "xx月xx号";
     public static void main(String[]args){
-        System.out.println("请输入你的生日（xx月xx号）");
+        System.out.println("请输入你的生日（阳历xx月xx号）");
         Scanner input1 = new Scanner(System.in);
         birthday = input1.next();
         String str1 = birthday.substring(0,2);
