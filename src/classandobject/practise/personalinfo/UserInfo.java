@@ -6,5 +6,6 @@ public class UserInfo {
         System.out.println(method.printInfo());
         Method method1 = new Method("cao","root");
         System.out.println(method1.printInfo());
+        method.printInformation();
     }
 }

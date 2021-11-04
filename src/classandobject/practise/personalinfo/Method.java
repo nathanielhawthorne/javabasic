@@ -21,6 +21,11 @@ public class Method {
     }
 
     public String printInfo(){
+
         return "用户名："+userID+" "+"密码："+" "+passwd+" "+"邮箱地址："+emailAddress;
+
+    }
+    public void printInformation(){
+        System.out.println("用户名："+userID+" "+"密码："+" "+passwd+" "+"邮箱地址："+emailAddress);
     }
 }
